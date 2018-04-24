@@ -6,10 +6,11 @@ using FizzWare.NBuilder;
 using Newtonsoft.Json;
 using WebApi.Models;
 
-public static class JsonPatchHelper
+public static class JsonHelper
 {
     public static void ExecOnStartup()
     {
+        //Comment this line bellow to exec anything on statup
         return;
         
         CreateJsonFiles();
