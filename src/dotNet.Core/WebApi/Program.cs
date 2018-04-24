@@ -14,6 +14,7 @@ namespace WebApi
     {
         public static void Main(string[] args)
         {
+            JsonPatchHelper.ExecOnStartup();
             BuildWebHost(args).Run();
         }
 
